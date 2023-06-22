@@ -1,0 +1,249 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Style the navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-links a:hover
+{
+    color: #CC338B;
+    border-bottom-color: #000;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+}
+
+.store-locator {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.sign-in,
+.join-now {
+    padding: 10px 20px;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #FFE6E8;
+}
+
+.sign-in:hover{
+    background-color: hotpink;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+}
+.join-now:hover {
+    background-color: hotpink;
+    width: 120px;
+    height: 40px;
+}
+
+.sign-in
+
+/* Main Content Section */
+
+body {
+    font-family: Helvetica;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 30px 0;
+    background: rgba(76, 175, 80, 0.3) url("header.png");
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: hotpink;
+}
+
+.explore-btn {
+    padding: 10px 30px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.explore-btn:hover{
+  background-color: hotpink; 
+  width: 180px;
+  height: 40px;
+}
+
+.featured-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.featured-section h2 {
+    font-size: 24px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+.product-card {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    background-color: #FFE6E8;
+}
+
+.product-card img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card h3:hover {
+color: #000;
+    font-size: 20px;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.buy-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.buy-btn:hover{
+  background-color: hotpink; 
+  width: 150px;
+  height: 40px;
+}
+
+.service-card {
+    background-color: #FFE6E8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service-card:hover {
+    background-color: #FFE6E8;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left img {
+  height: 40px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.footer-right .footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-right .footer-links li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-right .footer-links li a:hover {
+  color: #000;
+}
